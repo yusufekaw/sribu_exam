@@ -1,0 +1,48 @@
+.hero-section {
+    background-color: #dc3545;
+  }
+
+.hero-section h1,
+.hero-section p {
+  font-family: 'Roboto', sans-serif;
+}
+
+.cta-section h2,
+.cta-section h5,
+.cta-section h5,
+.cta-section p,
+.cta-section li,
+.testimonial-section h2,
+.testimonial-section h5,
+.testimonial-section h5,
+.testimonial-section p,
+.testimonial-section li,
+.portofolio-section h2,
+.portofolio-section h5,
+.portofolio-section h5,
+.portofolio-section p,
+.portofolio-section li,
+.comparison-section h2,
+.comparison-section h5,
+.comparison-section p,
+.comparison-section li,
+.problem-section h2,
+.problem-section h5,
+.problem-section p,
+.problem-section li {
+  font-family: 'Roboto', sans-serif;
+}
+
+.img-resposive { 
+  max-width: 100%; 
+}
+
+@media (max-width: 768px) {
+  .img-mobile-half {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
